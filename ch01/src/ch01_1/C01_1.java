@@ -2,8 +2,8 @@ package ch01_1;
 
 import java.util.Scanner;
 
-public class E01_1_plus1 {
-
+public class C01_1 {
+ 
 	public static void main(String[] args) {
 		
 		// Scanner 클래스
