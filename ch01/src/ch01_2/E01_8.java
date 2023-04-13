@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class E01_8 {
-
+ 
 	// 직각 이등변 삼각형 출력
 	public static void main(String[] args) {
 		
