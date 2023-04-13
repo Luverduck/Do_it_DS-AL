@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class Q08 {
-
+ 
 	// 가우스 덧셈을 이용하여 1부터 n까지 정수의 합 구하기
 	// 가우스 덧셈
 	// - 수열(sequence)의 합을 구하는 방법 
