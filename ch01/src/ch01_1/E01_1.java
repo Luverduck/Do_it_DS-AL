@@ -1,7 +1,7 @@
 package ch01_1;
 
 import java.util.Scanner;
-
+ 
 public class E01_1 {
 
 	public static void main(String[] args) {
