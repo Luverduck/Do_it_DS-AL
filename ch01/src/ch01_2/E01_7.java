@@ -1,7 +1,7 @@
 package ch01_2;
 
 public class E01_7 {
-
+ 
 	// 1부터 9까지 곱셈표 출력
 	public static void main(String[] args) {
 		System.out.println("----- 곱셈표 -----");
