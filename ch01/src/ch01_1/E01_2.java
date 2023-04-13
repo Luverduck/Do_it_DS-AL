@@ -1,7 +1,7 @@
 package ch01_1;
 
 public class E01_2 {
-
+ 
 	// 최대값 반환 메소드
 	static int maxValue(int a, int b, int c) {
 		// a를 최대값으로 가정
