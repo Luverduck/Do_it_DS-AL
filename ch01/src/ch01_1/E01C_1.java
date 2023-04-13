@@ -1,7 +1,7 @@
 package ch01_1;
 
 import java.util.Scanner;
-
+ 
 public class E01C_1 {
 
 	// 세 정수 중 중앙값 구하기 
