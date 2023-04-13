@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class Q09 {
-
+ 
 	// 정수 a, b를 포함하여 그 사이에 있는 모든 정수의 합 구하기
 	static int sumof(int a, int b) {
 		// 정수의 대소 비교
