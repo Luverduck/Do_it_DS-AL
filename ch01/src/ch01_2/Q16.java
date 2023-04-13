@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class Q16 {
-
+ 
 	// n단 피라미드 찍기
 	static void spira(int n) {
 		// 각 행마다 별 또는 공백을 넣을 수 있는 2(n-1)+1개의 칸이 존재한다
