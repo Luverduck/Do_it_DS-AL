@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class Q10 {
-
+ 
 	// 1부터 n까지 정수의 합 구하기(양수만 입력)
 	public static void main(String[] args) {
 		// 사용자 입력
