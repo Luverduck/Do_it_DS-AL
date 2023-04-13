@@ -3,7 +3,7 @@ package ch01_1;
 import java.util.Scanner;
 
 public class Q03 {
-
+ 
 	// 네 정수 중 최소값 구하기
 	static int min4(int a, int b, int c, int d) {
 		// a를 최소값으로 가정
