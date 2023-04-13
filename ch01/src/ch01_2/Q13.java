@@ -1,7 +1,7 @@
 package ch01_2;
 
 public class Q13 {
-
+ 
 	// 표 형태의 덧셈표 출력
 	public static void main(String[] args) {
 		// 최상단 행
