@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class Q17 {
-
+ 
 	// n단 피라미드 (숫자)
 	static void npira(int n) {
 		
