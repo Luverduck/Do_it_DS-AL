@@ -1,7 +1,6 @@
 package ch02_1;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Q1 {
 
