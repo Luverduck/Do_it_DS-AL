@@ -1,7 +1,7 @@
 package ch01_2;
 
 import java.util.Scanner;
-
+ 
 public class E01_4 {
 
 	// 1부터 n까지 정수의 합 구하기
