@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class Q15 {
-
+ 
 	// 왼쪽 아래가 직각인 이등변 삼각형
 	static void triangleLB(int n) {
 		for(int i = 1 ; i <= n ; i ++) {		
