@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class E01C_2 {
-
+ 
 	// 2자리 양수만 입력받기
 	public static void main(String[] args) {
 		// 사용자 입력
