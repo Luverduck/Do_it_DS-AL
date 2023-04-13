@@ -1,7 +1,7 @@
 package ch01_2;
 
 public class Q12 {
-
+ 
 	// 표 형태의 곱셈표 출력
 	public static void main(String[] args) {
 		
