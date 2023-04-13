@@ -3,7 +3,7 @@ package ch01_1;
 import java.util.Scanner;
 
 public class Q01 {
-
+ 
 	static int max4(int a, int b, int c, int d) {
 		// 최대값을 a라고 가정
 		int max = a;
