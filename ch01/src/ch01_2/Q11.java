@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class Q11 {
-	
+	 
 	public static void main(String[] args) {
 		// 사용자 입력
 		Scanner sc = new Scanner(System.in);
