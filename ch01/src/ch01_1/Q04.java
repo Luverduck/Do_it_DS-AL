@@ -1,7 +1,7 @@
 package ch01_1;
 
 public class Q04 {
-
+ 
 	// 세 정수의 중앙값 구하기
 	static int med3(int a, int b, int c) {
 		if(a >= b) 
