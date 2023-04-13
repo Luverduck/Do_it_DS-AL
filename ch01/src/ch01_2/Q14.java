@@ -3,7 +3,7 @@ package ch01_2;
 import java.util.Scanner;
 
 public class Q14 {
-
+ 
 	// 정사각형 출력
 	public static void main(String[] args) {
 		// 사용자 입력
