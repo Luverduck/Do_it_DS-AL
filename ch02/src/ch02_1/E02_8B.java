@@ -12,19 +12,12 @@ public class E02_8B {
 		// 자릿수
 		int digits = 0;
 		
-		// x를 r진수로 변환한 각 자릿수 변환 (아랫 자리수부터 순차적으로 저장)
+		// x를 r진수로 변환한 각 자릿수 변환 (아랫 자리 수부터 순차적으로 저장)
 		do {
 			d[digits] = dchar.charAt(x % r);
 			digits ++;
 			x /= r;
 		} while(x != 0);
-		
-		// 각 자릿수의 값을 저장한 배열의 요소를 역순으로 정렬
-		for(int i = 0 ; i < digits ; i ++) {
-			char temp = d[i];
-			d[i] = d[(digits-1) - i];
-			d[(digits-1) - i] = temp;
-		}
 		
 		// 자릿수 반환
 		return digits;
