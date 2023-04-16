@@ -29,7 +29,7 @@ public class E02_13 {
 			// 윤년이면 mdays 0행, 평년이면 mdays 1행에서 일수를 계산
 			days += mdays[isLeap(y)][i - 1];
 		}
-		// 계산산 일 수 반환
+		// 계산한 일 수 반환
 		return days;
 	}
 	
