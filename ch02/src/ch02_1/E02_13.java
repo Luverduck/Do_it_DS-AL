@@ -33,7 +33,7 @@ public class E02_13 {
 		return days;
 	}
 	
-	// 한 해의 오늘까지 경과 일 수 계산
+	// 한 해 특정 날짜까지 경과한 일 수 계산
 	public static void main(String[] args) {
 		// 사용자 입력
 		Scanner sc = new Scanner(System.in);
