@@ -41,16 +41,19 @@ public class E04_01 {
 			if(ptr >= max) {
 				throw new OverflowStackException();	// 오버플로우
 			}
-			return stk[ptr ++];	// 후위 연산 : 대입하고 값을 증가
+			stk[ptr] = x;
+			ptr ++;
+			return stk[ptr];
 		}
 		
 		// 스택에 x를 pop(삭제)
-		public int pop(int x) throws UnderflowStackException {
+		public int pop() throws UnderflowStackException {
 			// 스택이 비어있을 경우
 			if(ptr <= 0) {
 				throw new UnderflowStackException();	// 언더플로우
 			}
-			return stk[-- ptr];	// 전위 연산 : 감소시킨 값을 대입
+			ptr --;
+			return stk[ptr];
 		}
 		
 		// 스택에서 peak 데이터 반환
