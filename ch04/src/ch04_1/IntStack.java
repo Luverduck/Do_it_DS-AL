@@ -58,7 +58,7 @@ public class IntStack {
 	
 	// 스택에서 x를 찾아 index 반환, 없으면 -1 반환
 	public int indexOf(int x) {
-		for(int i = 0 ; i < stk.length ; i ++) {
+		for(int i = stk.length - 1 ; i >= 0  ; i --) {
 			if(stk[i] == x) {
 				return i;
 			}
