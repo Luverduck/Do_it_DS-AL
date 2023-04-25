@@ -1,6 +1,6 @@
 package ch04_2;
 
-public class Q4 {
+public class Q04 {
 
 	// 큐 구현
 	static class IntQueue {
@@ -30,7 +30,7 @@ public class Q4 {
 		}
 		
 		// 큐에 x를 enqueue
-		public int push(int x) throws OverFlowQueueException {
+		public int enqueue(int x) throws OverFlowQueueException {
 			if(num >= max) { // 큐가 가득 차있다면
 				throw new OverFlowQueueException();
 			}
@@ -40,7 +40,7 @@ public class Q4 {
 		}
 		
 		// 큐에 x를 dequeue
-		public int pop() throws UnderFlowQueueException {
+		public int dequeue() throws UnderFlowQueueException {
 			if(num <= 0) {
 				throw new UnderFlowQueueException();
 			}
@@ -53,6 +53,9 @@ public class Q4 {
 		}
 		
 		// 큐에서 맨 앞 데이터를 peek
+		// - 큐는 선입 선출의 구조이다.
+		// - 프론트를 기준으로 가장 먼저 들어간 데이터가 가장 마지막에 위치하게 된다.
+		// - peek는 프론트와 가장 가까운 위치의 데이터를 확인하는 메소드이다.
 		public int peek() throws UnderFlowQueueException {
 			if(num <= 0) {
 				throw new UnderFlowQueueException();
