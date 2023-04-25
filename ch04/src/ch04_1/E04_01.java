@@ -56,8 +56,8 @@ public class E04_01 {
 			return stk[ptr];
 		}
 		
-		// 스택에서 peak 데이터 반환
-		public int peak() throws UnderflowStackException {
+		// 스택에서 데이터 반환
+		public int peek() throws UnderflowStackException {
 			if(ptr <= 0) {
 				throw new UnderflowStackException();
 			}
