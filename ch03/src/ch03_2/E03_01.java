@@ -39,7 +39,7 @@ public class E03_01 {
 		if(idx == -1) 
 			System.out.println("해당 값은 존재하지 않습니다.");
 		else
-			System.out.println(key + "는 x[" + idx + "]에 있습니다.");
+			System.out.println(key + "는 array[" + idx + "]에 있습니다.");
 		
 		sc.close();
 	}
